@@ -52,6 +52,7 @@ public class Main {
         String choice;
         int total = 0;
 
+        System.out.println("====== ATM System ======");
         do {
             System.out.println("1. Consulter le solde");
             System.out.println("2. Dépôt");
@@ -88,7 +89,7 @@ public class Main {
 
 
         } while (!choice.equals("4"));
-;
+
         scanner.close();
 
     }
